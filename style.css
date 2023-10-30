@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Kalam:wght@300;400&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+ }
+ a{ 
+    text-decoration: none;
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+ }
+ header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  header ul li{
+    margin: 20px;
+   }
+
+ img{
+    width: 150px;
+    
+  }
+  h1{ 
+    font-size: 30px;
+    color: rgb(249, 4, 4);
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+    
+  }
+
+  h2{ 
+    font-size: 36px;
+    color: rgb(249, 4, 4);
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+    
+  }
+
+  h3{ 
+    font-size: 36px;
+    color: rgb(249, 4, 4);
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+  }
+
+  h4{ 
+    font-size: 29px;
+    color: rgb(249, 4, 4);
+    align-content: center;
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+  }
+ 
+  
+
+  p{ 
+    font-size: 20px;
+    color: rgb(0, 0, 0);;
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+  }
+
+  .contenedor{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    background-color: rgb(243, 212, 10);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja{ 
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja img{ 
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .caja p{ 
+    font-size: 16px;
+    font-family: 'Handlee', cursive;
+    font-family: 'Kalam', cursive;
+  }
+
+  #menu{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #menu iframe{
+    padding: 10px;
+    margin: 10px;
+   }
+
+
+  #ubicacion{ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  #ubicacion iframe{
+    padding: 10px;
+    margin: 10px;
+   }
+
+
+  #promociones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #promociones iframe{
+    padding: 10px;
+    margin: 10px;
+   }
+
+  #nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+  #nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+   }
+
+  #carouselExampleControls{
+    width: 100%;
+    flex-direction: center;
+    padding: 40px;
+  }
+
+  
+
+ 

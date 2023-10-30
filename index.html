@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./Imagenes/Mcdonalds_logo.png" alt="logo de McDonald">
+        </div>
+        <nav>
+            <ul>
+                <a href="#menu"><li>MENU</li></a>
+                <a href="#ubicacion"><li>UBICACION</li></a>
+                <a href="#promociones"><li>PROMOCIONES</li></a>
+                <a href="#nosotros"><li>NOSOTROS</li></a> 
+            </ul>
+        </nav>
+    </header>
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagenes/carru1.jpg" class="d-block w-100" alt="carrusel1">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carru2" class="d-block w-100" alt="carrusel2">
+        </div>
+        <div class="carousel-item">
+          <img src="imagenes/carru3.jpg" class="d-block w-100" alt="carousel3">
+        </div>
+        <div class="carousel-item">
+         <img src="imagenes/carru4.jpg" class="d-block w-100" alt="carousel4">
+       </div>
+       <div class="carousel-item">
+         <img src="imagenes/carru5.jpg" class="d-block w-100" alt="carousel5">
+       </div>
+       <div class="carousel-item">
+         <img src="imagenes/carru6.jpg" class="d-block w-100" alt="carousel6">
+       </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   
+
+    <div class="contenedor bg-warning">
+      <div class="noticias">
+        <h1>Línea de Ética</h1>
+        <div id="contenido">
+          <p>Es un medio de denuncia confidencial, realizado por McDonald´s Mesoamérica, para que los proveedores, clientes, personas externas y/o empleados de la corporación, informen sobre cualquier situación que incumpla la normativa legal del país o bien contravenga las buenas prácticas y ética de los negocios, así como los principios y valores que rigen en nuestra organización.</p>
+
+        </div>
+
+      </div>
+      <button onclick="muestra_oculta (contenido)" class="btn btn primary"  form="contenido"></button>
+    </div>
+
+
+    <div class="contenedor bg-warning">
+        <div class="caja">
+           <img src="./Imagenes/calidad" alt="calidad de McDonald">
+           <h1>Calidad</h1>
+           <p class="text-white">Nuestros alimentos están preparados con ingredientes variados y nutritivos, que cuentan con los más altos estándares de calidad</p>
+        </div>
+
+        <div class="caja">
+           <img src="./Imagenes/experiencia del futuro" alt="experiencia de McDonald">
+           <h1>Experiencia del futuro</h1>
+           <p class="text-white">Nos transformamos y evolucionamos como marca para ofrecer una nueva y moderna experiencia de atención.</p>
+        </div>
+
+        <div class="caja">
+           <img src="./Imagenes/mision" alt="mision de McDonald">
+           <h1>MISIÓN</h1>
+           <p class="text-white">Ser el lugar y la manera favorita para comer de nuestros clientes.</p> 
+        </div> 
+      </div>
+    </div>
+
+
+
+
+    <div id="menu">
+       <P>MENU </P>
+        <div class="contenedor  bg-warning">
+          <div class="caja">
+              <img src="imagenes/hamburguesa.png" alt="hamburguesa de McDonald">
+              <h2>HAMBURGUESA</h2>
+              <P class="text-white">Delicioso hamburguesa en un pan con ajonjolí, con una torta 100% de res</P>
+          </div>
+          <div class="caja">
+              <img src="imagenes/postres.jpg" alt="postres de McDonald">
+              <h2>POSTRES</h2>
+              <P class="text-white">Suave helado de vainilla, mezclado con galleta triturada de Oreo y toppin</P>
+          </div>
+          <div class="caja">
+            <img src="imagenes/bebidas.jpg" alt="bebidas de McDonald">
+            <h2>BEBIDAS</h2>
+            <P class="text-white">En McDonald´s encontrarás a las marcas líderes para que escojas</P>
+          </div>
+          <div class="caja">
+              <img src="imagenes/cajita feliz.jpg" alt="cajita feliz de McDonald">
+              <h2>CAJITA FELIZ</h2>
+               <P class="text-white">Cajita Feliz de desayuno. Delicioso McMuffin de salchicha en pan muffin</P>
+          </div>
+        </div>
+      </div>
+
+    <DIv id="promociones"> 
+      <P>PROMOCIONES </P>
+    </DIv>
+
+   <div class="contenedor bg-warning">
+
+     <div class="caja">
+          <img src="imagenes/promo1.jpg" alt="macpops de McDonald">
+          <h3>MACPOPS</h3>
+          <p class="text-white">Delicioso postre con relleno de chocolate</p>
+     </div>
+   
+    
+       <div class="caja">
+          <img src="imagenes/promo 2.jpg" alt="macflurry de McDonald">
+          <h3>MACFLURRY</h3>
+          <P class="text-white">Suave helado de vainilla, mezclado con galleta triturada de Oreo y toppin</P>
+       </div>
+   
+
+       <div class="caja">
+          <img src="imagenes/promo 3.jpg" alt="MCCAFE de McDonald">
+          <h3>MACCAFE</h3>
+          <P class="text-white">abebida a base de cafe expresso con leche y hielo triturado </P>
+       </div>
+   </div>
+
+
+   <div>
+
+<div id="NOSOTROS">
+<p>NOSOTROS</p>
+     </div>
+
+        <div class="contenedor  bg-warning">
+         <div class="caja">
+            <img src="imagenes/ALTOS ESTANDARES.png" alt="altos estandares de macdonald">
+            <h4>ALTOS ESTANDERES</h4>
+            <p class="text-white">Brindamos Calidad, Servicio, Limpieza y Valor a nuestros clientes.
+               Fomentamos en toda la organización un alto enfoque en el cliente.</p>
+        </div>
+
+        <div class="caja">
+         <img src="imagenes/INNOVACION Y CRECIMIENTO.png" alt="innovacion y crecimiento de macdonald">
+         <h4>INNOVACION Y CRECIMIENTO</h4>
+         <p class="text-white">Promovemos la innovación y el crecimiento manteniendo una actitud de apertura al cambio y apoyando el desarrollo personal y profesional de nuestra gente. Fomentamos y desarrollamos el liderazgo positivo y estratégico de la empresa y de toda nuestra gente.</p>
+        </div>
+
+    <div class="caja">
+         <img src="imagenes/GENTE.png" alt="gente de macdonald">
+         <h4>GENTE</h4>
+         <p class="text-white">Tenemos un fuerte compromiso hacia nuestra gente y al trabajo en equipo. Ofrecemos a nuestros empleados varios canales de comunicación como una forma de valorarlos a ellos, su desarrollo y sus contribuciones.</p>
+     </div>
+
+        </div> 
+
+      <div id="UBICACION">
+            <iframe width="480" height="300" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=14.089555450919377~-87.19346523284912&lvl=17&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+            </iframe>
+           <iframe width="500" height="300" src="https://www.youtube.com/embed/-rjeX4XYMPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+       
+      </div>
+
+      <div class="contenedor-sm bg-dark">
+         <div class="caja">
+              <img src="imagenes/foto de Jelin.jpeg" alt="foto de Jelin">
+              <p class="text-white">JELIN ROMERO</p>
+         </div>
+      </div>
+
+
+    <footer>
+        <p>Orgullosamente parte de McDonald's Mesoamérica</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
